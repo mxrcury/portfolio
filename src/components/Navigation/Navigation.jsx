@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
-import { navigationReducer, scrollToAboutCreator, scrollToCreationsCreator, scrollTopCreator } from "../../Redux/Reducers/navigation-reducer";
 import styles from "./Navigation.module.css";
+import 'boxicons'
 
 const Navigation = () => {
   const scrollTop = ()=>{
@@ -14,21 +14,23 @@ const Navigation = () => {
   }
   return (
     <div className={styles.wrapper}>
-      <Link 
-      onClick={scrollTop}
-      activeClass={styles.active}
-      smooth={true} 
-      duration={10}
-      className={styles.link}>
+      <Link
+        onClick={scrollTop}
+        activeClass={styles.active}
+        smooth={true}
+        duration={10}
+        className={styles.link}
+      >
         {" "}
         {`<home/>`}{" "}
       </Link>
-      <Link 
-      onClick={scrollToAbout}
-      activeClass={styles.active}
-      smooth={true} 
-      duration={10} 
-      className={styles.link}>
+      <Link
+        onClick={scrollToAbout}
+        activeClass={styles.active}
+        smooth={true}
+        duration={10}
+        className={styles.link}
+      >
         {" "}
         {`<about/>`}{" "}
       </Link>
@@ -36,10 +38,13 @@ const Navigation = () => {
         {" "}
         {`<creations/>`}{" "}
       </Link>
-      
+
       <div className={styles.socialMedias}>
-        <a href="https://github.com/mxrcury">
-          <img src="C:\Users\VivoBook\Desktop\react-apps\PNG" alt="" />
+        <a href="https://github.com/mxrcury" style={{marginRight:'5px'}}>
+          <box-icon className={styles.icon} type="logo" name="github" color='#E3CAA5'></box-icon>
+        </a>
+        <a href="https://www.instagram.com/mercurynotdead/">
+          <box-icon type='logo' name='instagram' color='#E3CAA5'></box-icon>
         </a>
       </div>
     </div>

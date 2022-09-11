@@ -1,0 +1,24 @@
+.wrapper{
+    max-width: 579px;
+    margin: 0 auto;
+    margin-bottom:167px;
+}
+.line{
+    width:370px;
+    height:2px;
+    background:white;
+}
+.titleWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    margin-bottom: 36px;
+}
+.slider{
+    background:url('../../assets/tobin.png') no-repeat center / cover;
+    padding: 100px;
+    border-radius:15px;
+    width: 100%;
+    height:100%;
+}

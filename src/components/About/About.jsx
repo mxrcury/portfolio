@@ -12,8 +12,7 @@ function About() {
         <div className={styles.pic}></div>
         <div className={styles.info}>
           <div className={styles.description}>
-            Currently I’m 17 y.o Front End beginner with no working experience
-            in company and in the same time i’m just a student
+            Currently I’m 17 y.o Front End beginner with no commercial experince and in the same time i’m just a student
           </div>
           <div className={`${styles.description} ${styles.titleItems}`}>
             Technologies I have been learning and working with:
