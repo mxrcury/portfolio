@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    position: fixed;
+    left: 29px;
+    bottom: 20px;
+    flex-direction: column;
+}
+.link{
+    margin-bottom: 12px;
+    color: #E3CAA5;
+}
+.link:hover{
+    color: white;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.active{
+    color:white;
+}
